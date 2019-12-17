@@ -9,6 +9,7 @@ const (
 	// Identifiers + literals
 	IDENT = "IDENT" // add, foobar, x, y, ...
 	INT   = "INT"   // 1343456
+	STRING = "STRING"
 
 	// Operators
 	ASSIGN   = "="
@@ -32,6 +33,9 @@ const (
 	RPAREN = ")"
 	LBRACE = "{"
 	RBRACE = "}"
+	LBRACKET = "["
+	RBRACKET = "]"
+	COLON = ":"
 
 	// Keywords
 	FUNCTION = "FUNCTION"
